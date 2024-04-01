@@ -1,0 +1,77 @@
+.recentcomments a {
+    display: inline !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (max-width: 1200px) and (min-width: 768px) {}
+
+.listing-filters input[type="submit"] {
+    color: #ffffff;
+}
+
+.listing-filters input[type="submit"] {
+    background: #000000;
+}
+
+.main-listings-page .listing-item span.rent-price,
+.main-listings-page .listing-item span.rent-price-off {
+    color: #ffffff;
+}
+
+.main-listings-page .listing-item span.rent-price,
+.main-listings-page .listing-item span.rent-price-off {
+    background: #f6ab34;
+}
+
+.main-listings-page .listing-item span.lstng-avail,
+.main-listings-page .listing-item span.lstng-avail-off {
+    color: #ffffff;
+}
+
+.main-listings-page .listing-item span.lstng-avail,
+.main-listings-page .listing-item span.lstng-avail-off {
+    background: #dd3333;
+}
+
+.main-listings-page .listing-item .btns .more_detail_btn {
+    color: #ffffff;
+}
+
+.main-listings-page .listing-item .btns .more_detail_btn {
+    background: #000000;
+}
+
+.main-listings-page .listing-item .btns .more_detail_btn:hover {
+    color: #ffffff;
+}
+
+.main-listings-page .listing-item .btns .more_detail_btn:hover {
+    background: #f6ab34;
+}
+
+.main-listings-page .listing-item .btns .apply_btn {
+    color: #ffffff;
+}
+
+.main-listings-page .listing-item .btns .apply_btn {
+    background: #f6ab34;
+}
+
+.main-listings-page .listing-item .btns .apply_btn:hover {
+    color: #ffffff;
+}
+
+.main-listings-page .listing-item .btns .apply_btn:hover {
+    background: #f6ab34;
+}
+
+.listing-filters {
+    background: #f6ab34;
+}
+
+.main-listings-page {
+    display: inline-block;
+}

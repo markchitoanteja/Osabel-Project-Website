@@ -1,0 +1,688 @@
+/*
+* Style File for Appfolio Listings plugin
+*/
+/* General */
+.apfl-column {
+    float: left;
+    margin: 0 1% 40px;
+    padding: 0 1%;
+    box-sizing: border-box;
+}
+
+.apfl-two-fifth {
+    width: 38%;
+}
+
+.apfl-three-fifth {
+    width: 58%;
+}
+
+.apfl-prmry-btn {
+    color: #fff;
+    background: rgb(89, 143, 205);
+    padding: 7px 20px;
+    letter-spacing: 1px;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+/* All Listings page */
+.main-listings-page .all-listings {
+    padding: 2em;
+}
+
+.main-listings-page .listing-item {
+    position: relative;
+    transition: 0.3s;
+    width: 32%;
+    float: left;
+    margin: 0 0.5%;
+    margin-bottom: 2rem;
+}
+
+.main-listings-page .listing-item .list-img {
+    position: relative;
+}
+
+.main-listings-page .listing-item .list-img img {
+    width: 100%;
+    height: 275px;
+    display: block;
+}
+
+#googlemap {
+    width: 100%;
+    height: 350px;
+}
+
+.listing-filters form {
+    display: flex;
+    justify-content: center;
+    align-items: normal;
+    margin: 0 25px;
+    flex-flow: wrap;
+}
+
+.listing-filters select,
+.listing-filters input[type="date"],
+.listing-filters input[type="text"],
+.listing-filters input[type="search"] {
+    width: auto;
+    /* min-width: 135px; */
+    margin: 0 5px;
+    padding: 3px 25px 3px 3px;
+}
+
+.listing-filters {
+    padding: 40px 0;
+    text-align: center;
+    background: #598fcd;
+}
+
+.listing-filters .apfl_page_hdng {
+    color: #fff;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 3rem;
+}
+
+.listing-filters .apfl_page_hdng h1,
+.listing-filters .apfl_page_hdng h2,
+.listing-filters .apfl_page_hdng h3,
+.listing-filters .apfl_page_hdng h4,
+.listing-filters .apfl_page_hdng h5,
+.listing-filters .apfl_page_hdng h6,
+.listing-filters .apfl_page_hdng p {
+    color: #fff;
+}
+
+.listing-filters input[type="submit"] {
+    min-width: 135px;
+    background: #ff6600;
+    color: #fff;
+    padding: 7px 30px !important;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0 10px;
+    line-height: 1;
+    text-decoration: none;
+}
+
+.listing-items-grp {
+    clear: both;
+}
+
+.main-listings-page .listing-item span.rent-price,
+.main-listings-page .listing-item span.rent-price-off,
+.main-listings-page .listing-item span.lstng-avail,
+.main-listings-page .listing-item span.lstng-avail-off {
+    color: #fff;
+    padding: 5px 10px;
+    letter-spacing: 1px;
+    position: absolute;
+    left: 0px;
+    font-size: 18px;
+    bottom: 0px;
+}
+
+.main-listings-page .listing-item span.rent-price-off,
+.main-listings-page .listing-item span.lstng-avail-off {
+    position: relative;
+}
+
+.main-listings-page .listing-item span.lstng-avail,
+.main-listings-page .listing-item span.lstng-avail-off {
+    left: auto;
+    right: 0px;
+}
+
+.main-listings-page .listing-item span.lstng-avail-off {
+    float: right;
+}
+
+.details {
+    padding: 15px;
+    background: rgba(89, 143, 205, 0.1);
+    margin-top: -7px;
+}
+
+.main-listings-page .listing-item img.bedimg,
+.main-listings-page .listing-item img.bathimg {
+    width: 16px;
+    height: auto;
+    margin: 0 5px;
+    display: inline;
+}
+
+.main-listings-page .listing-item .btns a {
+    color: #fff;
+    background: rgb(89, 143, 205);
+    padding: 5px 10px;
+    margin-right: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 0.3s;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.main-listings-page .listing-item .btns a:hover {
+    background: #444;
+}
+
+.listing-item:hover {
+    box-shadow: 0px 0px 10px 0px #444;
+}
+
+.listing-item:hover .details {
+    background: #fff;
+}
+
+.mm-prop-popup {
+    display: flex;
+}
+
+.mm-prop-popup .map-popup-thumbnail {
+    margin-right: 15px;
+}
+
+h3.map-popup-rent,
+.map-popup-specs {
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+.mm-prop-popup .map-popup-info a {
+    color: #fff;
+    background: rgb(89, 143, 205);
+    padding: 7px 20px;
+    margin-right: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* SINGLE LISTING PAGE*/
+.apfl-sl-wrapper .sl-btns {
+    text-decoration: none;
+    display: block;
+    width: fit-content;
+    margin-bottom: 10px;
+    margin-left: auto;
+}
+
+/* Gallery CSS */
+.apfl-gallery {
+    position: relative;
+}
+
+.mySlides {
+    display: none;
+    width: 100%;
+}
+
+.mySlides img {
+    max-height: 450px !important;
+    width: 100%;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 25px 15px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    text-decoration: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background: rgba(255, 255, 255, 0.5);
+    color: #444;
+    text-decoration: none;
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#image-prvw .demo {
+    opacity: 0.6;
+    height: 100px;
+    width: 95%;
+    margin: auto;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+.imgcolumn {
+    float: left;
+    width: 20%;
+    margin: auto;
+}
+
+/* Listing details */
+.lst-dtls {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 25px;
+}
+
+.lst-dtls .details-left {
+    width: 60%;
+}
+
+.lst-dtls .details-right {
+    width: 40%;
+    text-align: right;
+}
+
+.address-hdng,
+.rent-hdng,
+.apfl-half h3 {
+    margin-top: 0 !important;
+}
+
+.address-hdng a {
+    text-indent: -9999px;
+    display: inline-block;
+    line-height: 1;
+}
+
+.address-hdng a:before {
+    content: '';
+    background: url(../images/map-marker.png);
+    width: 32px;
+    height: 32px;
+    float: left;
+    margin: 0;
+    text-indent: 0;
+}
+
+.apfl-half {
+    width: 50%;
+    float: left;
+}
+
+.sl-btns {
+    color: #fff;
+    background: rgb(89, 143, 205);
+    padding: 7px 20px;
+    margin-right: 5px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+
+.sl-btns:hover {
+    text-decoration: none;
+    background: #444;
+}
+
+.bathimg,
+.bedimg {
+    width: 16px;
+    height: auto;
+    margin: 0 5px;
+    display: inline;
+}
+
+.details-right .rent-hdng {
+    color: #ff6600;
+    margin-bottom: 1rem;
+    padding: .5rem 0;
+    text-align: right;
+    border: none;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1;
+}
+
+.call-top {
+    color: rgb(89, 143, 205);
+    text-decoration: none;
+}
+
+.call-top .call-now {
+    display: inline;
+    width: 18px;
+    vertical-align: middle;
+}
+
+.details-right .rent-hdng .price-tag {
+    display: inline;
+    width: 24px;
+    vertical-align: bottom;
+}
+
+.details-right #avail-txt {
+    color: #3bb54a;
+}
+
+img.avail-now {
+    display: inline;
+    width: 18px;
+    margin-right: 5px;
+    margin-bottom: -2px;
+}
+
+.extra-half {
+    margin-bottom: 25px;
+}
+
+.apfl-half.apply-sec {
+    text-align: right;
+    margin: 25px 0;
+}
+
+/* Listings Slider */
+.apfl-listings-slider,
+.apfl-listings-crsl {
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+.sngl-lstng-slide .slide-img {
+    width: 50% !important;
+    left: auto !important;
+    right: 0 !important;
+}
+
+.sngl-lstng-slide .slide-txt {
+    width: 50% !important;
+    position: absolute;
+    height: 100%;
+}
+
+.sngl-lstng-slide .slide-txt .ttl {
+    color: #fff;
+    position: relative;
+    text-align: center;
+    font-size: 36px;
+    padding: 0 90px;
+    margin-bottom: 10px;
+    line-height: 1.3;
+}
+
+.sngl-lstng-slide .plc_avl,
+.sngl-lstng-slide .lstng_price {
+    position: absolute;
+    right: 0;
+    top: 20px;
+    color: #fff;
+    font-size: 1.2em;
+    background: #1e2430;
+    padding: 7px 15px;
+    font-family: Roboto Condensed, sans-serif;
+    letter-spacing: 1px;
+}
+
+.sngl-lstng-slide .lstng_price {
+    left: 0;
+    right: auto;
+}
+
+.sngl-lstng-slide .mini-dtl {
+    color: #fff;
+    position: relative;
+    text-align: center;
+    padding: 0 26px;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.sngl-lstng-slide .mini-dtl span {
+    color: #ffffff;
+    padding: 7px 15px;
+    font-family: Roboto Condensed, sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.sngl-lstng-slide .mini-dtl span img {
+    display: inline-block;
+    filter: invert(1);
+    vertical-align: middle;
+}
+
+.lstng-adrs {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #1e2430;
+    font-size: 24px;
+    padding: 0 40px;
+    font-family: Roboto Condensed, sans-serif;
+    letter-spacing: 1px;
+}
+
+.sngl-lstng-slide .apply_sec {
+    text-align: center;
+}
+
+.sngl-lstng-slide .apply_sec a {
+    color: #fff;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    font-family: Roboto Condensed, sans-serif;
+    letter-spacing: 1px;
+    text-decoration: none;
+    border: 2px solid #ffffff;
+    margin: 0 10px;
+    background: transparent;
+}
+
+.slide-lstng-content {
+    position: absolute;
+    width: 100%;
+    bottom: 25%;
+    height: auto;
+}
+
+.slide-lstng-content p {
+    line-height: 1.4;
+}
+
+/* Carousel */
+.sngl-lstng-crsl .slide-txt {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    color: #fff;
+    font-weight: bold;
+    font-family: Roboto Condensed, sans-serif;
+    text-decoration: none;
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sngl-lstng-crsl .lstng_price {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 1.1em;
+    background: rgb(91, 175, 203, 0.85);
+    padding: 5px 12px;
+}
+
+.sngl-lstng-crsl .plc_avl {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 1.1em;
+    background: rgb(91, 175, 203, 0.85);
+    padding: 5px 12px;
+}
+
+.sngl-lstng-crsl .mini-dtl {
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: 0;
+    text-align: center;
+    background: rgb(91, 175, 203, 0.85);
+    padding: 10px 0px;
+}
+
+.sngl-lstng-crsl .mini-dtl span {
+    display: inline-block;
+    padding: 0px 20px;
+    font: inherit;
+}
+
+.sngl-lstng-crsl .mini-dtl span img {
+    filter: invert(1);
+    margin: auto;
+    vertical-align: bottom;
+}
+
+.sngl-lstng-crsl .lstng-adrs {
+    color: #fff;
+    bottom: 0;
+    background: rgb(30, 36, 48, 0.85);
+    padding: 7px 0px;
+    margin-bottom: 0;
+    font: inherit;
+}
+
+/* Responsiveness */
+@media only screen and (max-width: 1348px) {
+    .listing-filters form {
+        flex-flow: wrap;
+        align-items: end;
+    }
+
+    .listing-filters select {
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width: 853px) and (min-width: 768px) {
+    .main-listings-page .listing-item .btns a {
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .listing-filters h2 {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .listing-filters input[type="submit"] {
+        padding: 5px 30px;
+        font-size: 16px;
+        margin: 0 10px;
+    }
+
+    .main-listings-page .all-listings {
+        padding: 1em;
+    }
+
+    .main-listings-page .listing-item {
+        width: 100%;
+    }
+
+    .sngl-lstng-slide .slide-img,
+    .sngl-lstng-slide .slide-txt {
+        width: 100% !important;
+    }
+
+    .sngl-lstng-slide .slide-txt {
+        background-color: rgb(91, 175, 203, 0.7);
+    }
+
+    .sngl-lstng-slide .slide-txt .ttl {
+        font-size: 30px;
+        padding: 0 75px;
+    }
+
+    .slide-lstng-content {
+        bottom: 50px;
+    }
+
+    .sngl-lstng-slide .mini-dtl {
+        padding: 0 80px;
+        font-size: 25px;
+    }
+
+    .sngl-lstng-slide .mini-dtl span {
+        display: inline-block;
+    }
+
+    /* Single listing */
+    .apfl-two-fifth,
+    .apfl-three-fifth {
+        width: 100%;
+        padding: 0 1em;
+    }
+
+    .lst-dtls {
+        display: block;
+    }
+
+    .lst-dtls .details-left,
+    .lst-dtls .details-right {
+        width: 100%;
+    }
+
+    .lst-dtls .details-right,
+    .details-right .rent-hdng {
+        text-align: left;
+        font-weight: normal;
+        font-size: 1rem;
+    }
+
+}
+
+@media only screen and (max-width: 425px) {
+    .apfl-half {
+        width: 100%;
+        float: none;
+    }
+
+    .apfl-half.apply-sec {
+        text-align: left;
+        margin: 0;
+    }
+}

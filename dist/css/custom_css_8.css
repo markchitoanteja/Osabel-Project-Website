@@ -1,0 +1,13 @@
+.wp-btn {
+    font: var(--the7-btn-m-font);
+    text-transform: var(--the7-btn-m-text-transform);
+    letter-spacing: var(--the7-btn-m-letter-spacing);
+    word-spacing: var(--the7-btn-m-word-spacing);
+    border-radius: var(--the7-btn-m-border-radius);
+    padding: var(--the7-btn-m-padding);
+    min-height: 40px;
+    line-height: 40px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #fbb03b;
+}

@@ -1,0 +1,171 @@
+.icon-with-text-shortcode.icon-text-id-ac8fec7e405462a3272d447adea02e29 .text-icon {
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 32px;
+    border-radius: 0px;
+    margin: 0px 0px 25px 0px;
+}
+
+.icon-with-text-shortcode.icon-text-id-ac8fec7e405462a3272d447adea02e29 .text-icon .icon-inner {
+    min-width: 32px;
+    min-height: 32px;
+    border-radius: 0px;
+}
+
+@media all and (-ms-high-contrast: none) {
+    .icon-with-text-shortcode.icon-text-id-ac8fec7e405462a3272d447adea02e29 .text-icon .icon-inner {
+        height: 32px;
+    }
+}
+
+.icon-with-text-shortcode.icon-text-id-ac8fec7e405462a3272d447adea02e29 .text-icon .dt-hover-icon {
+    line-height: 32px;
+}
+
+.icon-with-text-shortcode.icon-text-id-ac8fec7e405462a3272d447adea02e29 .text-icon:before,
+.icon-with-text-shortcode.icon-text-id-ac8fec7e405462a3272d447adea02e29 .text-icon:after,
+.icon-with-text-shortcode.icon-text-id-ac8fec7e405462a3272d447adea02e29 .text-icon .icon-inner:before,
+.icon-with-text-shortcode.icon-text-id-ac8fec7e405462a3272d447adea02e29 .text-icon .icon-inner:after {
+    min-width: 100%;
+    min-height: 100%;
+    padding: inherit;
+    border-radius: inherit;
+}
+
+.icon-with-text-shortcode.icon-text-id-ac8fec7e405462a3272d447adea02e29 .text-icon.dt-icon-border-on:before {
+    border-width: 0px;
+    border-style: solid;
+}
+
+.dt-icon-border-dashed.icon-with-text-shortcode.icon-text-id-ac8fec7e405462a3272d447adea02e29 .text-icon.dt-icon-border-on:before {
+    border-style: dashed;
+}
+
+.dt-icon-border-dotted.icon-with-text-shortcode.icon-text-id-ac8fec7e405462a3272d447adea02e29 .text-icon.dt-icon-border-on:before {
+    border-style: dotted;
+}
+
+.dt-icon-border-double.icon-with-text-shortcode.icon-text-id-ac8fec7e405462a3272d447adea02e29 .text-icon.dt-icon-border-on:before {
+    border-style: double;
+}
+
+.icon-with-text-shortcode.icon-text-id-ac8fec7e405462a3272d447adea02e29 .text-icon.dt-icon-border-dashed.dt-icon-border-on:before {
+    border-style: dashed;
+}
+
+.icon-with-text-shortcode.icon-text-id-ac8fec7e405462a3272d447adea02e29 .text-icon.dt-icon-border-dotted.dt-icon-border-on:before {
+    border-style: dotted;
+}
+
+.icon-with-text-shortcode.icon-text-id-ac8fec7e405462a3272d447adea02e29 .text-icon.dt-icon-border-double.dt-icon-border-on:before {
+    border-style: double;
+}
+
+.icon-with-text-shortcode.icon-text-id-ac8fec7e405462a3272d447adea02e29 .text-icon.dt-icon-hover-border-on:after {
+    border-width: 0px;
+    border-style: solid;
+}
+
+.icon-with-text-shortcode.icon-text-id-ac8fec7e405462a3272d447adea02e29 .text-icon.dt-icon-border-dashed.dt-icon-hover-border-on:after {
+    border-style: dashed;
+}
+
+.icon-with-text-shortcode.icon-text-id-ac8fec7e405462a3272d447adea02e29 .text-icon.dt-icon-border-dotted.dt-icon-hover-border-on:after {
+    border-style: dotted;
+}
+
+.icon-with-text-shortcode.icon-text-id-ac8fec7e405462a3272d447adea02e29 .text-icon.dt-icon-border-double.dt-icon-hover-border-on:after {
+    border-style: double;
+}
+
+.icon-with-text-shortcode.icon-text-id-ac8fec7e405462a3272d447adea02e29 .text-icon.dt-icon-hover-on:hover {
+    font-size: 32px;
+}
+
+#page .icon-with-text-shortcode.icon-text-id-ac8fec7e405462a3272d447adea02e29 .text-icon.dt-icon-hover-on:hover .soc-font-icon,
+#phantom .icon-with-text-shortcode.icon-text-id-ac8fec7e405462a3272d447adea02e29 .text-icon.dt-icon-hover-on:hover .soc-font-icon,
+#page .icon-with-text-shortcode.icon-text-id-ac8fec7e405462a3272d447adea02e29 .text-icon.dt-icon-hover-on:hover .soc-icon,
+#phantom .icon-with-text-shortcode.icon-text-id-ac8fec7e405462a3272d447adea02e29 .text-icon.dt-icon-hover-on:hover .soc-icon {
+    color: #fff;
+    background: none;
+}
+
+.icon-with-text-shortcode.icon-text-id-ac8fec7e405462a3272d447adea02e29.layout-1 {
+    grid-template-columns: 32px minmax(0, 1fr);
+    grid-column-gap: 0px;
+}
+
+.icon-with-text-shortcode.icon-text-id-ac8fec7e405462a3272d447adea02e29.layout-2 {
+    grid-template-columns: minmax(0, 1fr) 32px;
+    grid-column-gap: 0px;
+}
+
+.icon-with-text-shortcode.icon-text-id-ac8fec7e405462a3272d447adea02e29.layout-2 .text-icon {
+    margin-left: 0;
+}
+
+.icon-with-text-shortcode.icon-text-id-ac8fec7e405462a3272d447adea02e29.layout-3 {
+    grid-template-columns: 32px minmax(0, 1fr);
+}
+
+.icon-with-text-shortcode.icon-text-id-ac8fec7e405462a3272d447adea02e29.layout-3 .dt-text-title {
+    margin-left: 0px;
+}
+
+.icon-with-text-shortcode.icon-text-id-ac8fec7e405462a3272d447adea02e29 .dt-text-title,
+.icon-with-text-shortcode.icon-text-id-ac8fec7e405462a3272d447adea02e29 .dt-text-title a {
+    font-weight: bold;
+}
+
+.icon-with-text-shortcode.icon-text-id-ac8fec7e405462a3272d447adea02e29 .dt-text-title {
+    margin-bottom: 15px;
+}
+
+.icon-with-text-shortcode.icon-text-id-ac8fec7e405462a3272d447adea02e29 .dt-text-desc {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.icon-with-text-shortcode.icon-text-id-ac8fec7e405462a3272d447adea02e29 .default-btn-shortcode {
+    border-radius: 100px;
+    font-size: 12px;
+}
+
+.btn-shadow.icon-with-text-shortcode.icon-text-id-ac8fec7e405462a3272d447adea02e29 .default-btn-shortcode {
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12);
+    transition: box-shadow 0.2s ease-out, opacity 0.45s;
+}
+
+.btn-shadow.icon-with-text-shortcode.icon-text-id-ac8fec7e405462a3272d447adea02e29 .default-btn-shortcode:hover {
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+.btn-flat.icon-with-text-shortcode.icon-text-id-ac8fec7e405462a3272d447adea02e29 .default-btn-shortcode {
+    box-shadow: none;
+}
+
+.btn-flat.icon-with-text-shortcode.icon-text-id-ac8fec7e405462a3272d447adea02e29 .default-btn-shortcode:hover {
+    box-shadow: none;
+}
+
+.icon-with-text-shortcode.icon-text-id-ac8fec7e405462a3272d447adea02e29 .default-btn-shortcode.ico-right-side>i {
+    margin-right: 0px;
+    margin-left: 8px;
+}
+
+.icon-with-text-shortcode.icon-text-id-ac8fec7e405462a3272d447adea02e29 .default-btn-shortcode>i {
+    margin-right: 8px;
+    font-size: 8px;
+}
+
+.icon-with-text-shortcode.icon-text-id-ac8fec7e405462a3272d447adea02e29 .default-btn-shortcode:not(:hover) {
+    border-width: 0px;
+    padding: 8px 18px 8px 18px;
+}
+
+.icon-with-text-shortcode.icon-text-id-ac8fec7e405462a3272d447adea02e29 .default-btn-shortcode:hover {
+    border-width: 0px;
+    padding: 8px 18px 8px 18px;
+}

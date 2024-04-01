@@ -1,0 +1,111 @@
+/*
+* Styling for listing gallery & lightbox
+*/
+.mySlides {
+    position: relative;
+}
+
+.apfl-gallery .mySlides img,
+.apfl-gallery .mySlides .gallery__video-label,
+.close_apfl_pp {
+    cursor: pointer;
+}
+
+.apfl_full_pp {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999999;
+    margin: auto;
+    text-align: center;
+}
+
+.apfl_full_pp .apfl_vid_container {
+    width: 950px;
+    height: 530px;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+.apfl_full_pp .afpl_pp_slide {
+    visibility: hidden;
+    transition: all 0.3s;
+    opacity: 0;
+    max-width: 100%;
+}
+
+.apfl_full_pp .afpl_pp_slide.current {
+    visibility: visible;
+    opacity: 1;
+}
+
+.apfl_full_pp img,
+.apfl_full_pp iframe {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.apfl-yt-frame {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 90% !important;
+    height: 100% !important;
+}
+
+.apfl_full_pp #pp_prev,
+.apfl_full_pp #pp_next {
+    color: #fff;
+    font-size: 70px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 70px;
+    line-height: 1;
+    margin: auto;
+    cursor: pointer;
+}
+
+.apfl_full_pp #pp_prev {
+    left: 7px;
+}
+
+.apfl_full_pp #pp_next {
+    right: 7px;
+}
+
+.close_apfl_pp {
+    position: absolute;
+    right: 20px;
+    color: #fff;
+    top: 10px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+span.gallery__video-label {
+    top: 49%;
+    position: absolute;
+    background: #3d3d3d;
+    border-radius: 5px;
+    padding: 5px 10px;
+    left: 50%;
+    color: #fff;
+}
